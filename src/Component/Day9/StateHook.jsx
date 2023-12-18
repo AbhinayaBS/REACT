@@ -8,7 +8,7 @@ function StateHook() {
   useEffect(() => {
     // side effects
     setCount(count + 1);
-  }, []);
+  }, [randomNumber]);
 
   return (
     <div style={{}}>
@@ -24,3 +24,5 @@ function StateHook() {
 }
 
 export default StateHook;
+
+// miq-ricb-kgh

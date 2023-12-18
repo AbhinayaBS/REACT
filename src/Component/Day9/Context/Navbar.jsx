@@ -15,7 +15,6 @@ function Navbar() {
         height: "10vh",
       }}
     >
-      ̌<Left />
       <h3>Navbar</h3>
       <button onClick={onClick}>Switch Theme</button>
     </div>
